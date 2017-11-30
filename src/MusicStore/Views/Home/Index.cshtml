@@ -1,0 +1,34 @@
+﻿@inject IOptions<AppSettings> AppSettings
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<img src="~/Images/capgemini_logo.png" width="400" height="120" /> <h4 style="color:lightskyblue ;font-style:oblique;font-weight:bolder">People matter,results count</h4>
+<div >
+    @*<h1>@AppSettings.Value.SiteTitle</h1>*@
+    <h1 style="font-style:italic ; font-variant-caps:petite-caps ; font-style:oblique">Cloud Native Apps..</h1>
+    <h3 style="font-style:oblique">
+
+        This is an Albums application which is developed with the Below Technologies :
+        <br/>
+        Asp.Net Core 1.0
+        <br />
+        Steeltoe
+        Pivotal Cloud Foundry<br/>
+        Micro Services <br/><br />
+    </h3>
+    <img src="~/Images/img3.jpg" width="900" height="400"/>
+</div>
+
+@*<ul class="row list-unstyled" id="album-list">
+        @foreach (var album in Model)
+        {
+        @*class="jumbotron"
+        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 container">
+            <a asp-controller="Store" asp-action="Details" asp-route-id="@album.AlbumId">
+                <img alt="@album.Title" src="@Url.Content(@album.AlbumArtUrl)" />
+                <h4>@album.Title</h4>
+            </a>
+        </li>
+        }
+    </ul>*@

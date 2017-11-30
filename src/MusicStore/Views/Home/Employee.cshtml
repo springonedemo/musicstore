@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Sample
+  
+<form action="MicroServiceDemo" method="post" align="center" style=" margin-top:20px;">
+    <img src="~/Images/Emp_Ravi.jpg" width="900" height="350"/>
+    <table align="center">
+        <tr>
+            <h3 cellpadding="10">Get Employee Details by ID</h3>
+            @{
+                
+            <td cellpadding="10">
+                <input type="text" asp-for="id"/> 
+            </td>
+            <td cellpadding="10">
+                <button type="submit" name="button" class="btn btn-primary button1">Submit</button>
+            </td>
+            }
+
+            
+        </tr>
+    </table>
+    <img src="~/Images/capgemini_logo.png" style=" margin-top:0px;" width="100" height="50" class="pull-right" />
+</form>
+    
